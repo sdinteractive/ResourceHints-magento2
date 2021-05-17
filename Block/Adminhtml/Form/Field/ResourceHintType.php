@@ -17,6 +17,7 @@ class ResourceHintType extends Select
     protected $_options = [
         'preload'      => 'Preload',
         'preconnect'   => 'Preconnect',
+        'prefetch'    => 'Prefetch',
         'dns-prefetch' => 'DNS Prefetch'
     ];
 
