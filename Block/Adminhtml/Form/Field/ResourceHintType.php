@@ -19,7 +19,6 @@ class ResourceHintType extends Select
         'preconnect'   => 'Preconnect',
         'prefetch'    => 'Prefetch',
         'dns-prefetch' => 'DNS Prefetch',
-        booger
     ];
 
     /**
