@@ -116,7 +116,7 @@ class FieldArray extends AbstractFieldArray
         $this->addColumn(
             'preload_as',
             [
-                'label' => __('Preload as'),
+                'label' => __('Preload/Prefetch as'),
                 'renderer' => $this->listPreloadTypes()
             ]
         );

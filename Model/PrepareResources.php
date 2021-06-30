@@ -126,7 +126,7 @@ class PrepareResources
         // Set rel to type
         $attributes->setData('rel', $resource['type']);
         // For preload
-        if ($resource['type'] === 'preload') {
+        if ($resource['type'] === 'preload' || 'prefetch') {
             // Set asset type
             $attributes->setData('as', $resource['preload_as']);
         }
